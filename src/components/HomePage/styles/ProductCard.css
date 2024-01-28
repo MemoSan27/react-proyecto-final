@@ -1,0 +1,78 @@
+.card{
+    width: 35rem;
+    height: max-content;
+    border: var(--border);
+    border-radius: 1rem;
+    transition: all 300ms;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: -2px 2px 38px 0px rgba(0,0,0,0.75);
+}
+.card__imgcont{
+    height: 25rem;
+    padding: 3rem 1rem;
+    border-bottom: var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card__img{
+    height: 75%;
+    object-fit: contain;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.8s ease;
+}
+.card__info{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.card__info-brand{
+    font-size: 2rem;
+    color: var(--grayFont);
+    font-weight: 900;
+}
+.card__info-title{
+    font-size: 2rem;
+    margin-left: 0.6rem;
+    margin-bottom: 1rem;
+    min-height: 7rem;
+}
+.card__info-price{
+    font-size: 1.5rem;
+    color: var(--grayFont);
+    font-weight: 700;
+}
+.card__info-money{
+    font-size: 2rem;
+    margin-left: 0.6rem;
+}
+.card__btn{
+    border: none;
+    align-self: flex-end;
+    font-size: 4rem;
+    background-color: var(--bgLoginRegister);
+    color: var(--containerLR);
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 5.7rem;
+    height: 5.7rem;
+    transition: background-color 300ms ease-in-out;
+}
+.card__btn:hover{
+    background-color: var(--darkenBlue);
+}
+.img2{
+    opacity: 1;
+}
+.over1{
+    opacity: 1;
+}
+.over2{
+    opacity: 0;
+}

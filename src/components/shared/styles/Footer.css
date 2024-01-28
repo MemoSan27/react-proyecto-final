@@ -1,0 +1,19 @@
+.footer{
+    width: 100vw;
+    height: 10rem;
+    background-color: black;
+    border-top: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 900;
+    margin-top: 10rem;
+}
+.footer__p{
+    font-size: 2rem;
+    font-family: var(--mainFont);
+    font-weight: 700;
+    text-align: center;
+}

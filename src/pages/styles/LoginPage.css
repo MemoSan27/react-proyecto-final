@@ -1,0 +1,28 @@
+.registerBtn{
+    background-color: white;
+    color: var(--bgLoginRegister);
+    border: 1px solid var(--bgLoginRegister);
+    margin-top: 0;
+}
+.registerBtn:hover{
+    background-color: lightgrey;
+}
+.question{
+    margin-top: 3rem;
+}
+.layout__reglog{
+    margin-top: -10rem;
+    margin-bottom: -10rem;
+}
+.testing__data{
+    background-color: #D8F5FD;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+.test__title{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}

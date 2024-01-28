@@ -1,0 +1,128 @@
+.mainer{
+    min-height: 100vh;
+}
+.cards{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+@media ( min-width: 992px ) { 
+    .cards{
+        margin-left: 20%;
+    }
+}
+.input__search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media ( min-width: 992px ) { 
+    .input__search{
+        position: fixed;
+        top: 0.5rem;
+        left: 17%;
+        z-index: 1100;
+        width: 50%;
+    }
+}
+.input__p{
+    font-size: 2rem;
+    font-family: var(--second);
+}
+.input__sup{
+    max-width: 30rem;
+    width: 100%;
+    padding: 0.2rem;
+    outline: none;
+    border: var(--border);
+    border-radius: 0.5rem;
+    position: relative;
+    background-color: white;
+}
+@media ( min-width: 992px ) { 
+    .input__sup{
+        max-width: 60rem;
+        width: 100%;
+    }
+}
+.input{
+    width: 88%;
+    border: none;
+    height: 100%;
+    outline: none;
+    font-size: 2rem;
+}
+.glass{
+    font-size: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.aside{
+        transition: 500ms ease-in-out;
+        margin-left: -100%;
+        max-width: 22rem;
+        width: 100%;
+        border: 0px solid lightgrey;
+        position: fixed;
+        min-height: 100vh;
+        top: 0;
+        z-index: 8;
+        background-color: white;
+        box-shadow: 10px 8px 32px 0px rgba(0,0,0,0.75);
+}
+.open{
+    transition: 500ms ease-in-out;
+    margin-left: 0;
+}
+.modalFilter{
+    margin-top: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalFilter span{
+    font-family: var(--secondFont);
+}
+@media ( min-width: 768px ) { 
+    .aside{
+        max-width: 27rem;
+    }
+}
+@media ( min-width: 992px ) { 
+    .aside{
+        margin: 0;
+        display: block;
+        box-shadow: none
+    }
+    .modalFilter{
+        display: none;
+    }
+}
+.filters{
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+.closeBtn{
+    font-size: 3.5rem;
+    position: absolute;
+    top: 7.2rem;
+    left: 80%;
+    cursor: pointer;
+}
+@media ( min-width: 768px ) { 
+    .closeBtn{
+        left: 85%;
+    }
+}
+@media ( min-width: 992px ) { 
+    .closeBtn{
+        display: none;
+    }
+}
+.filterIcon{
+    font-size: 4rem;
+}

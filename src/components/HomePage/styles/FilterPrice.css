@@ -1,0 +1,16 @@
+.price{
+    margin-top: 8rem;
+}
+.price__title{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--bgLoginRegister);
+}
+.filterBtn{
+    width: 100%;
+    margin: 2rem 0;
+}
+.span__price{
+    font-size: 1.5rem;
+}
